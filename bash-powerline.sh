@@ -84,6 +84,10 @@ __powerline() {
         fi
 
         PS1="$cwd$git$symbol"
+        
+        if [[ "$VIRTUAL_ENV" != "" ]]; then
+            PS1="(`basename \"$VIRTUAL_ENV\"`) $PS1"
+        fi
     }
 
     PROMPT_COMMAND="ps1${PROMPT_COMMAND:+; $PROMPT_COMMAND}"
