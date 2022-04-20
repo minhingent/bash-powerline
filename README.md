@@ -1,3 +1,7 @@
+# fork changes
+
+This fork adds basic support python virtualenvs
+
 # bash-powerline
 
 Powerline for Bash in pure Bash script.
@@ -20,7 +24,7 @@ Powerline for Bash in pure Bash script.
 
 Download the Bash script
 
-    curl https://raw.githubusercontent.com/riobard/bash-powerline/master/bash-powerline.sh > ~/.bash-powerline.sh
+    curl https://github.com/minhingent/bash-powerline/master/bash-powerline.sh > ~/.bash-powerline.sh
 
 And source it in your `.bashrc`
 
